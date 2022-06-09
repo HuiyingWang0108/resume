@@ -121,7 +121,7 @@ h5 {
 
 .progress-list div {
     width: 100%;
-    margin-left: 200px;
+    margin-left: 20px;
 }
 
 .info-list,
@@ -238,7 +238,7 @@ progress::-moz-progress-value {
 
 .left-label {
     display: inline-block;
-    width: 120px;
+    width: 125px;
 }
 
 .portrait {
@@ -246,7 +246,7 @@ progress::-moz-progress-value {
     margin-top: 20px;
     margin-bottom: 10px;
     /* background-image: url('https://avatars0.githubusercontent.com/u/21081491?v=3&s=460'); */
-    background-image: url('https://github.com/HuiyingWang0108/Basic-Portfolio/blob/master/assets/images/JojoWang.png?raw=true');
+    background-image: url('https://github.com/HuiyingWang0108/Basic-Portfolio/blob/master/assets/images/huiyingwang.jpeg?raw=true');
     /* background-image: url('https://github.com/HuiyingWang0108/Basic-Portfolio/blob/master/assets/images/img_1.jpg?raw=true'); */
     background-size: 120%;
     background-position: center;
