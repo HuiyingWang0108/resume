@@ -2,10 +2,13 @@
     font-family: 'iconfont';
     src: url('../fonts/iconfont.eot');
     /* IE9*/
-    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/iconfont.woff') format('woff'), /* chrome、firefox */
-    url('../fonts/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-    url('../fonts/iconfont.svg#iconfont') format('svg');
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/iconfont.woff') format('woff'),
+        /* chrome、firefox */
+        url('../fonts/iconfont.ttf') format('truetype'),
+        /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+        url('../fonts/iconfont.svg#iconfont') format('svg');
     /* iOS 4.1- */
 }
 
@@ -117,6 +120,11 @@ h5 {
     font-weight: 500;
     color: #607d8b;
     line-height: 1.0;
+}
+
+h3 {
+    display: flex;
+    justify-content: space-between;
 }
 
 .progress-list div {
@@ -255,6 +263,7 @@ progress::-moz-progress-value {
     width: 160px;
     height: 160px;
 }
+
 .container {
     /* display: inline-flex; */
     position: relative;
@@ -278,7 +287,8 @@ progress::-moz-progress-value {
     position: relative;
     margin-left: 360px;
     height: 100%;
-    padding: 20px;/*20px-------*/
+    padding: 20px;
+    /*20px-------*/
     /*top: 60px;--add-------*/
 }
 
@@ -346,7 +356,7 @@ ul li {
         width: 80%;
         height: 100%;
     }
-    
+
     .container {
         /* display: inline-flex; */
         margin: 0 auto;
@@ -354,10 +364,10 @@ ul li {
         width: 70%;
         height: 95%;
         padding-top: 1%;
-    
+
     }
-    
-    
+
+
     .side {
         position: relative;
         margin-left: auto;
@@ -377,4 +387,4 @@ ul li {
         float: left;
         padding-left: 2%;
     }
-  }
+}
